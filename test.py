@@ -15,6 +15,7 @@ while True:
 
     print "Sum: " + str(x+y)
     print "Product: " + str(x*y)
+    print "Quotient: " + str(x/y)
     print "Square of 2nd number: " + str(y**2)
 
     user_exit = raw_input("Exit? (y/n): ")
