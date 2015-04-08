@@ -5,11 +5,11 @@ x = raw_input("Enter any number: ")
 y = raw_input("Enter another number: ")
 
 try:
-    x = float(x)
-    y = float(y)
+    x = int(x)
+    y = int(y)
 except ValueError:
-    x = 0.0
-    y = 0.0
+    x = 0
+    y = 0
 
 print x+y
 print x/2
