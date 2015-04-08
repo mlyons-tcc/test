@@ -11,6 +11,6 @@ except ValueError:
     x = 0
     y = 0
 
-print x+y
-print x/2
-print y**2
+print "Sum: " + str(x+y)
+print "Product: " + str(x*y)
+print "Square of 2nd number: " + str(y**2)
