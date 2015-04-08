@@ -1,16 +1,24 @@
 __author__ = 'mike.lyons'
 
 print "Hello World!"
-x = raw_input("Enter any number: ")
-y = raw_input("Enter another number: ")
 
-try:
-    x = float(x)
-    y = float(y)
-except ValueError:
-    x = 0.0
-    y = 0.0
+while True:
+    x = raw_input("Enter any number: ")
+    y = raw_input("Enter another number: ")
 
-print x+y
-print x/2
-print y**2
+    try:
+        x = int(x)
+        y = int(y)
+    except ValueError:
+        x = 0
+        y = 0
+
+    print "Sum: " + str(x+y)
+    print "Product: " + str(x*y)
+    print "Quotient: " + str(x/y)
+    print "Square of 2nd number: " + str(y**2)
+
+    user_exit = raw_input("Exit? (y/n): ")
+    if user_exit == 'y' or user_exit == 'Y':
+        break
+print "Goodbye World!"
