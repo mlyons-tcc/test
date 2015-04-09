@@ -14,6 +14,7 @@ while True:
         y = 0
 
     print "Sum: " + str(x+y)
+    print "Difference: " + str(x-y)
     print "Product: " + str(x*y)
     print "Quotient: " + str(x/y)
     print "Square of 2nd number: " + str(y**2)
