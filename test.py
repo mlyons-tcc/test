@@ -7,8 +7,8 @@ while True:
     y = raw_input("Enter another number: ")
 
     try:
-        x = int(x)
-        y = int(y)
+        x = float(x)
+        y = float(y)
     except ValueError:
         x = 0
         y = 0
