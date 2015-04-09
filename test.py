@@ -1,5 +1,5 @@
 __author__ = 'mike.lyons'
-print "test v1.0.5"
+print "test v1.0.7"
 print "Hello Customer!"
 
 while True:
