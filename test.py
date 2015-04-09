@@ -1,6 +1,6 @@
 __author__ = 'mike.lyons'
 
-print "Hello World!"
+print "Hello Customer!"
 
 while True:
     x = raw_input("Enter any number: ")
@@ -21,4 +21,4 @@ while True:
     user_exit = raw_input("Exit? (y/n): ")
     if user_exit == 'y' or user_exit == 'Y':
         break
-print "Goodbye World!"
+print "Goodbye Customer!"
