@@ -7,7 +7,7 @@ while True:
     y = raw_input("Enter another number: ")
 
     try:
-        x = float(x)
+        x = float(x)    # use float so that division works
         y = float(y)
     except ValueError:
         x = 0
