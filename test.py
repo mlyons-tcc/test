@@ -1,5 +1,5 @@
 __author__ = 'mike.lyons'
-
+print "test v1.0.4"
 print "Hello Customer!"
 
 while True:
@@ -7,8 +7,8 @@ while True:
     y = raw_input("Enter another number: ")
 
     try:
-        x = int(x)
-        y = int(y)
+        x = float(x)    # use float so that division works
+        y = float(y)
     except ValueError:
         x = 0
         y = 0
